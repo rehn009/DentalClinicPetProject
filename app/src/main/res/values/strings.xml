@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">DentalClinic</string>
+
+    <string-array name="servicesoffereds">
+        <item>Dental Checkup</item>
+        <item>Oral Phrophylaxis</item>
+        <item>Tooth Restoration</item>
+        <item>Tooth Extraction</item>
+        <item>Prosthodontics</item>
+        <item>Orthodontics</item>
+        <item>Root Canal Treatment</item>
+        <item>Odontectomy</item>
+    </string-array>
+
+    <string-array name="setappoint">
+        <item>Set Appointment</item>
+        <item>Set Appointment</item>
+        <item>Set Appointment</item>
+        <item>Set Appointment</item>
+        <item>Set Appointment</item>
+        <item>Set Appointment</item>
+        <item>Set Appointment</item>
+        <item>Set Appointment</item>
+    </string-array>
+
+    <string-array name="servedesc">
+        <item>"A regular dental check up is important because they help keep your teeth and gums healthy. You should have a regular dental visit at least every 6 months or as recommended by your dental professional."</item>
+        <item>"cleaning of the teeth by a dentist or dental hygienist, including removal of plaque, materia alba, calculus, and extrinsic stains; done as a preventive measure for control of gingivitis."</item>
+        <item>" is a treatment to restore the function, integrity, and morphology of missing tooth structure resulting from caries or external trauma as well as to the replacement of such structure supported by dental implants."</item>
+        <item>" is the removal of teeth from the dental alveolus (socket) in the alveolar bone. Extractions are performed for a wide variety of reasons, but most commonly to remove teeth which have become unrestorable through tooth decay, periodontal disease or dental trauma, especially when they are associated with toothache."</item>
+        <item>"also known as dental prosthetics or prosthetic dentistry, is the area of dentistry that focuses on dental prostheses.",</item>
+        <item>"the treatment of irregularities in the teeth (especially of alignment and occlusion) and jaws, including the use of braces."</item>
+        <item>"also known as endodontic therapy, is a dental treatment for removing infection from inside a tooth. It can also protect the tooth from future infections. It is carried out in the pulp of the tooth, which is the root canal."</item>
+        <item>"Removal of teeth by the bending back of a mucoperiosteal flap and excision of bone from around the root before the application of force to remove the tooth."</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_admin_appointment">AdminAppointment</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="services">Services</string>
+</resources>
