@@ -8,7 +8,7 @@ import com.example.seiya.dentalclinic.model.Client;
 
 public class SharedPrefManager {
 
-    private static final String sharedprefname = "myharedprefname";
+    private static final String sharedprefname = "mySharedprefname";
     @SuppressLint("StaticFieldLeak")
     private static SharedPrefManager spmInstance;
     private Context contextL;
@@ -41,7 +41,7 @@ public class SharedPrefManager {
 
     public boolean isLoggedIn(){
         SharedPreferences sharedPreferences = contextL.getSharedPreferences(sharedprefname,Context.MODE_PRIVATE);
-        return sharedPreferences.getInt("id", -1) == -1;
+        return sharedPreferences.getInt("id", -1) != -1; // if it is not equal to -1 it means the username is not login.
     }
     public Client getClient(){
         SharedPreferences sharedPreferences = contextL.getSharedPreferences(sharedprefname,Context.MODE_PRIVATE);

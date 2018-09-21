@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onStart();
 
         if(SharedPrefManager.getSpmInstance(MainActivity.this).isLoggedIn()){
-            Intent intent = new Intent(MainActivity.this, UserArea.class);
+            Intent intent = new Intent(this, UserArea.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
             startActivity(intent);
         }
@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     startActivity(intent);
 
                 }else{
-                    Toast.makeText(MainActivity.this,loginResponse.getMessage(),Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this,loginResponse.getMessage(),Toast.LENGTH_LONG).show();
                 }
             }
 
